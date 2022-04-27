@@ -10,7 +10,7 @@ public class Shape {
 	public Shape() {
 	}
 
-	public Shape(String fillColor, String lineColor, int width, int height) {
+	public Shape(String fillColor, String lineColor) {
 		this.fillColor = fillColor;
 		this.lineColor = lineColor;
 	}

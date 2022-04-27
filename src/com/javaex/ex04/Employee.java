@@ -29,7 +29,6 @@ public class Employee extends User {
 		System.out.println("#아이디:"+id+", #패스워드:"+password+", #이름:"+name+", #월급:"+salary);
 	}
 	
-	
 	@Override
 	public String toString() {
 		return "Employee [salary=" + salary + ", id=" + id + ", password=" + password + ", name=" + name + "]";

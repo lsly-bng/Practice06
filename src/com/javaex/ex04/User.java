@@ -1,23 +1,23 @@
 package com.javaex.ex04;
 
 public class User {
-	
-	//field
+
+	// field
 	protected String id;
 	protected String password;
 	protected String name;
-	
-	//constructor
+
+	// constructor
 	public User() {
 	}
-	
+
 	public User(String id, String password, String name) {
 		this.id = id;
 		this.password = password;
 		this.name = name;
 	}
 
-	//method - g/s
+	// method - g/s
 	public String getId() {
 		return id;
 	}
@@ -42,15 +42,14 @@ public class User {
 		this.name = name;
 	}
 
-	//method - general 
+	// method - general
 	public void showInfo() {
-		
+
 	}
-	
+
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", password=" + password + ", name=" + name + "]";
 	}
-	
-	
+
 }
