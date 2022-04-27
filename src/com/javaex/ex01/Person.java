@@ -1,23 +1,23 @@
 package com.javaex.ex01;
 
 public class Person {
-	
-	//field
+
+	// field
 	protected String name;
 	protected String hp;
-	
-	//constructor
+
+	// constructor
 	public Person() {
 		super();
 	}
-	
+
 	public Person(String name, String hp) {
 		super();
 		this.name = name;
 		this.hp = hp;
 	}
 
-	//method - g/s
+	// method - g/s
 	public String getName() {
 		return name;
 	}
@@ -34,17 +34,14 @@ public class Person {
 		this.hp = hp;
 	}
 
-	//method - general 
+	// method - general
 	public void showInfo() {
-		System.out.println("#이름:"+name+", #핸드폰:"+hp);
+		System.out.println("#이름:" + name + ", #핸드폰:" + hp);
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Person [name=" + name + ", hp=" + hp + "]";
 	}
-	
-	
 
-	
 }

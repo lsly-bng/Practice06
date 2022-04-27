@@ -43,7 +43,5 @@ public class Customer extends Person{
 	public String toString() {
 		return "Customer [cNo=" + cNo + ", point=" + point + ", name=" + name + ", hp=" + hp + "]";
 	}
-	
-	
-	
+
 }

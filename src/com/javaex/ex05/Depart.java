@@ -2,10 +2,10 @@ package com.javaex.ex05;
 
 public class Depart extends Employee {
 
-	//field
+	// field
 	private String department;
 
-	//constructor
+	// constructor
 	public Depart() {
 		super();
 	}
@@ -15,7 +15,7 @@ public class Depart extends Employee {
 		this.department = department;
 	}
 
-	//method - g/s
+	// method - g/s
 	public String getDepartment() {
 		return department;
 	}
@@ -23,11 +23,10 @@ public class Depart extends Employee {
 	public void setDepartment(String department) {
 		this.department = department;
 	}
-	
-	//method - general 
+
+	// method - general
 	public void showInformation() {
-		System.out.println("이름:" + super.getName() + " 연봉:" + super.getSalary()+" 부서:"+department);
+		System.out.println("이름:" + super.getName() + " 연봉:" + super.getSalary() + " 부서:" + department);
 	}
-	
 
 }

@@ -1,12 +1,12 @@
 package com.javaex.ex03;
 
 public class Shape {
-	
-	//field
+
+	// field
 	protected String fillColor;
 	protected String lineColor;
-	
-	//constructor
+
+	// constructor
 	public Shape() {
 	}
 
@@ -14,9 +14,9 @@ public class Shape {
 		this.fillColor = fillColor;
 		this.lineColor = lineColor;
 	}
-	//method - g/s
-	
-	//method - general
+	// method - g/s
+
+	// method - general
 	public void setFillColor(String fillColor) {
 		this.fillColor = fillColor;
 	}
@@ -24,9 +24,8 @@ public class Shape {
 	public void setLineColor(String lineColor) {
 		this.lineColor = lineColor;
 	}
-	
+
 	public void showInfo() {
-		
+
 	}
 }
-

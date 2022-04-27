@@ -2,7 +2,7 @@ package com.javaex.ex06;
 
 public class MyBase extends Base {
 
-	//method - general
+	// method - general
 	public void service(String state) {
 		if (state.equals("낮")) {
 			day();
